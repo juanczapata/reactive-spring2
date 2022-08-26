@@ -5,9 +5,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
 @NoArgsConstructor
-@AllArgsConstructor
+@RequiredArgsConstructor
 @Data
-@Builder
 public class Movie {
     private String id;
     @NonNull
